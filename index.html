@@ -1,427 +1,123 @@
-html{
-    background-color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+<!doctype html>
 
-body{
-    margin: 0;
-}
+<html>
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <title>IN & OUT WIRELESS</title>
 
-#cover-photo{
-    background-image: url("https://www.techprevue.com/wp-content/uploads/2017/06/electronic-devices-1.jpg");
-    height: 740px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
+    </head>    
 
-nav{
-    font-size: 100%;
-    font-weight: bolder;
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
-    background-color: hsla(0, 0%, 20%, 0.6);
-    box-shadow: 0px 3px 3px hsla(244, 100%, 70%, 0.5); 
-    width: 100%;
-    padding-bottom: 7px;
-    z-index: 50;
-}
+    <body>
+        <nav>
+            <a href="#cover-photo" class="hvr-wobble-horizontal">Home</a>
+            <a href="#products" class="hvr-wobble-horizontal">Products</a>
+            <a href="#services" class="hvr-wobble-horizontal">Services</a>
+            <a href="#aboutus" class="hvr-wobble-horizontal">About Us</a>
+            <a href="#contactus" class="hvr-wobble-horizontal">Contact Us</a>
+        </nav>
 
-nav a {
-    color: rgb(255, 255, 255);
-    margin-right: 60px; 
-    text-decoration: none;
-}
+        <div id="cover-photo"><div class="textoverlay"><h1>IN & OUT WIRELESS</h1><p>One stop for all of your electronics needs</p></div></div>
+        
+        <div id="products">
+            <h2 class="title">Our Products</h2>
+            <p class="discription">We sell ...</p>
+            <picture id="Cell-Phones"><p>Cell Phones</p></picture>
+            <picture id="Tablets"><p>Tablets</p></picture>
+            <picture id="Laptops"><p>Laptops</p></picture>
+            <picture id="Phone-Accessories"><p>Cell Phone Accessories</p></picture>
+            <picture id="Cell-Phone-Plans"><p>Wireless Plans</p></picture>
+            <picture><h6>and so much more!<br>Don't miss out.</h6></picture>
+        </div>
 
-.textoverlay {
-    position: absolute;
-    text-align: center;
-    background-color: hsla(0, 0%, 0%, 0.5);
-    border: 5px solid hsl(244, 100%, 70%, 0.5);
-    border-radius: 20px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 150%;
-    width: 500px;
-    padding: 20px;
-    line-height: 20px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+        <div id="services">
+            <h2 class="title">Our Services</h2>
+            <p class="discription">We offer ...</p>
+            <picture id="buy"><p>Tired of your old device? you came to the right place, we buy all types of electronics from customers like you "who like to stay up to date with the technology" for a good price, then you can buy your next device that you look forward to own.</p></picture>
+            <picture id="repair"><p>broken screen? Don't stress out ... no problem. With our team of skilled workers, you are in and out in 30 minutes or less. need to flash your phone? No need to panic, we are here for you with the latest software for your very own phone.</p></picture>
+        </div>
 
-.textoverlay h1{
-    font-weight: 300;
-		width: 500px;
-}
+        <div id="aboutus">
+            <h2 class="title">About Us</h2>
+            <p class="discription">Get to know us ...</p>
 
-.textoverlay p{
-    font-weight: 700;
-		width: 500px;
-}
+            <article>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Viverra accumsan in nisl nisi scelerisque eu ultrices. Nec nam aliquam sem et tortor consequat id porta nibh. 
+                Fames ac turpis egestas maecenas. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id. Quisque sagittis purus 
+                sit amet volutpat consequat mauris nunc. Suspendisse in est ante in nibh mauris cursus mattis. Elit scelerisque mauris 
+                pellentesque pulvinar pellentesque. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. 
+                Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Feugiat sed lectus vestibulum mattis ullamcorper. 
+                Nullam non nisi est sit amet facilisis magna etiam tempor. Orci ac auctor augue mauris augue neque.
+            </article>
+            <img id="front" src="shop-front.jpg">
+            <img id="inside" src="shop-inside.jpg">
+        </div>
 
-.title{
-    font-size: 400%;
-    font-weight: 200;
-    line-height: 20px;
-    margin-bottom: 2%;
-    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
-}
+        <div id="contactus">
+            <h2 class="title">Contact Us</h2>
+            <p class="discription">Get a hold of us, see what we have going ...</p>
+            <div id="info">
+                <h4>You can find us @</h4>
+                <p>3113 S Perkins Rd<br>Memphis, TN 38118, USA</p>
+                <br>
+                <h4>You can call us @</h4>
+                <p>(901) 366-1200</p>
+                <br>
+                <table>
+                    <h4>Open and close hours during the week</h4>
+                    <tbody>
+                        <tr><td>Monday</td><td>9am - 8pm</td></tr>
+                        <tr><td>Tuesday</td><td>9am - 8pm</td></tr>
+                        <tr><td>Wednesday</td><td>9am - 8pm</td></tr>
+                        <tr><td>Thursday</td><td>9am - 8pm</td></tr>
+                        <tr><td>Friday</td><td>9am - 8pm</td></tr>
+                        <tr><td>Saturday</td><td>9am - 8pm</td></tr>
+                        <tr><td>Sunday</td><td>11am - 6pm</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <form id="contact" action="#">
+                <table>
+                    <tbody>
+                        <tr><td><input type="text" name="first-name" placeholder="your name" required></td></tr>
+                        <tr><td><input type="text" name="last-name" placeholder="your phone number (Optional)"></td></tr>
+                        <tr><td><input type="email" name="e-mail" placeholder="your e-mail" required></td></tr>
+                        <tr><td><textarea id="message" type="text" name="message" placeholder="your message" required></textarea></td></tr>
+                        <tr><td><button type="submit" value="Submit">Send</button></td></tr>
+                    </tbody>
+                </table>
+            </form>
 
-.discription{
-    font-size: 130%;
-    font-weight: 400;
-    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
-}
+            <br class="clear">
+            <br><br>
+            <div id="footer">
+                <a href="https://www.facebook.com/inandout3113/photos/a.1441500215866743/1771451719538256/?type=1&theater" target="_blank"><img src="social/facebook.png"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="social/instagram.png"></a>
+                <a href="https://www.pinterest.com/" target="_blank"><img src="social/pinterest.png"></a>
+                <a href="https://www.snapchat.com/" target="_blank"><img src="social/snapchat.png"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="social/twitter.png"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="social/youtube.png"></a>
+            </div>
+            <p id="copyright">&copy 2018 All Rights Reserved | IN & OUT WIRELESS</p>
+        </div>
 
-#products{
-    height: 800px;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    background-color: hsl(195, 70%, 60%);
-}
+        <div class="icon-bar">
+            <a href="https://www.facebook.com/inandout3113/photos/a.1441500215866743/1771451719538256/?type=1&theater" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
+            <a href="https://twitter.com/" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+            <a href="https://www.snapchat.com/" class="snapchat" target="_blank"><i class="fa fa-snapchat"></i></a> 
+            <a href="https://www.instagram.com/?hl=en" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> 
+            <a href="https://www.pinterest.com/" class="pinterest" target="_blank"><i class="fa fa-pinterest"></i></a> 
+        </div>
+        <script src="script.js"></script>
+    </body>
 
-#products picture{
-    margin-top: 70px;
-    float: left;
-    border-radius: 20px;
-    margin-left: 10%;
-    height: 20%;
-    width: 20%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 3px solid white;
-}
-
-#products picture p{
-    margin-top: 55%;
-    font-size: 150%;
-    font-weight: 300;
-}
-
-#products picture h6{
-    font-size: 200%;
-    margin-top: 30px;
-    line-height: 60px;
-    font-weight: 100;
-}
-
-#services{
-    background-color: hsl(177, 60%, 40%);
-    height: 800px;
-    color: white;
-    text-align: center;
-    padding: 5px;
-}
-
-#services picture{
-    margin-top: 15px;
-    float: left;
-    border-radius: 20px;
-    margin-left: 13%;
-    height: 33%;
-    width: 30%;
-    background-color: white;
-}
-
-#services picture p{
-    margin-top: 300px;
-    font-size: 130%;
-    font-weight: 300;
-}
-
-#aboutus{
-    background-color: hsl(120, 73%, 65%);
-    height: 800px;
-    color: white;
-    text-align: center;
-    padding: 5px;
-}
-
-#contactus{
-    height: auto;
-    background-color: hsl(9, 100%, 70%);
-    color: white;
-    text-align: center;
-    padding: 5px;
-}
-
-#contactus div a img{
-    height: 40px;
-    margin-right: 20px;
-}
-
-#copyright{
-    font-style: italic;
-    font-size: 70%;
-    color: white;
-}
-@-webkit-keyframes hvr-wobble-horizontal {
-    16.65% {
-      -webkit-transform: translateX(8px);
-      transform: translateX(8px);
-    }
-    33.3% {
-      -webkit-transform: translateX(-6px);
-      transform: translateX(-6px);
-    }
-    49.95% {
-      -webkit-transform: translateX(4px);
-      transform: translateX(4px);
-    }
-    66.6% {
-      -webkit-transform: translateX(-2px);
-      transform: translateX(-2px);
-    }
-    83.25% {
-      -webkit-transform: translateX(1px);
-      transform: translateX(1px);
-    }
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-  }
-  @keyframes hvr-wobble-horizontal {
-    16.65% {
-      -webkit-transform: translateX(8px);
-      transform: translateX(8px);
-    }
-    33.3% {
-      -webkit-transform: translateX(-6px);
-      transform: translateX(-6px);
-    }
-    49.95% {
-      -webkit-transform: translateX(4px);
-      transform: translateX(4px);
-    }
-    66.6% {
-      -webkit-transform: translateX(-2px);
-      transform: translateX(-2px);
-    }
-    83.25% {
-      -webkit-transform: translateX(1px);
-      transform: translateX(1px);
-    }
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-  }
-  .hvr-wobble-horizontal {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  }
-  .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
-    color: hsl(244, 100%, 85%);
-    -webkit-animation-name: hvr-wobble-horizontal;
-    animation-name: hvr-wobble-horizontal;
-    -webkit-animation-duration: 0.5s;
-    animation-duration: 0.5s;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-  }
-
-#Cell-Phones{
-    background-image: url("CellPhones.png");
-    background-size: contain;
-    background-position: center;
-}
-#Tablets{
-    background-image: url("tablets.png");
-    background-size: contain;
-    background-position: center;
-}
-
-#Laptops{
-    background-image: url("laptops.png");
-    background-size: contain;
-    background-position: center;
-}
-
-#Phone-Accessories{
-    background-image: url("accessories.png");
-    background-size: contain;
-    background-position: center;
-}
-
-#Cell-Phone-Plans{
-    background-image: url("cell-phone-plans.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-#buy{
-    background-image: url("buye.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: left;
-    border: 3px solid white;
-    font-size: 130%;
-}
-
-#repair{
-    background-image: url("repair.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: left;
-    border: 3px solid white;
-    font-size: 130%;
-}
-
-table{
-    margin: 1% auto;
-}
-
-#contactus form table tbody tr td{
-    vertical-align: top;
-    padding: 10px;
-}
-
-#contactus form table tbody tr td input{
-    width: 250px;
-    height: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.clear{
-    clear: both;
-}
-
-#contactus form table tbody tr td #message{
-    resize: both;
-    overflow: auto;
-    height: 300px;
-    width: 100%;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-#contact{
-    float: left;
-    width: 25%;
-    height: auto;
-    text-align: left;
-    padding: 20px;
-    background-color: hsl(241, 57%, 64%);
-}
-
-#info{
-    float: left;
-    width: 25%;
-    height: auto;
-    font-weight: 200;
-    height: auto;
-    background-color: hsl(300, 100%, 30%);
-    padding: 20px;
-    margin: 0 8% 0 17%;
-}
-
-#info table{
-    margin-top: 0;
-}
-
-#info div{
-    margin-top: 0;
-}
-
-article{
-    width: 50%;
-    margin: 0 auto;
-    font-weight: 300;
-    font-size: 130%;
-}
-
-#aboutus #front{
-    height: 230px;
-    margin-right: 4%;
-    border: 3px solid white;
-}
-
-#aboutus #inside{
-    height: 230px;
-    border: 3px solid white;
-}
-
-#aboutus img{
-    margin-top: 40px;
-    border-radius: 10px;
-}
-
-button{
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    width: 30%;
-    border: none;
-    font-size: 110%;
-    cursor: pointer;
-}
-
-#info td{
-    padding: 5px 10px;
-    text-align: left;
-}
-
-.icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    border-top: 3px solid rgba(255, 255, 255, 0.5);
-    border-right: 3px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
-  }
-  
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 5px 10px;
-    color: white;
-    font-size: 200%;
-    width: 60%;
-    transition: all 0.2s;
-  }
-  
-  .icon-bar a:hover {
-      width: 150%;
-      border-top-right-radius: 50%;
-      border-bottom-right-radius: 50%;
-  }
-  
-  .facebook {
-    background: hsl(221, 44%, 40%);
-    color: white;
-  }
-  
-  .twitter {
-    background: hsl(206, 82%, 60%);
-    color: white;
-  }
-  
-  .instagram {
-    background: hsl(315, 71%, 50%);
-    color: white;
-  }
-  
-  .pinterest {
-    background: #C92228;
-    color: white;
-  }
-  
-  .youtube {
-    background: hsl(0, 100%, 50%);
-    color: white;
-  }
-
-  .snapchat {
-    background: hsl(60, 100%, 50%);
-    color: white;
-  }
+</html>
